@@ -1,0 +1,21 @@
+.links {
+    padding-bottom: 3.2rem;
+    a {
+        padding: 1rem;
+        border: 1px solid black;
+        float: left;
+    }
+    a.hover {
+        background-color: black;
+        color: white;
+    }
+}
+.content {
+    width: 95%;
+    border: 1px solid black;
+    padding: 1rem;
+    main {
+        margin-right: 1rem;
+        padding-right: 0;
+    }
+}
