@@ -29,14 +29,12 @@ function hoverEvent(evt) {
 }
 //changes background color of links when moused over
 //how do you get background color to go away when not mousing over a link?
-//mdn -- setTimeout
-// setTimeout(function() {
-//       evt.target = "";
-//     }, 500);
-//   } false;
+
 
   for (i=0; i < anchors.length; i++) {
   anchors[i].addEventListener('mouseover', hoverEvent); }
+
+  //use mouseenter and mouseout instead?
 
 function renderContent(whatContent) {
   document.querySelector('.content h1').textContent = data[whatContent].title;

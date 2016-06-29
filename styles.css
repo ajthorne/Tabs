@@ -3,10 +3,12 @@
   .links a {
     padding: 1rem;
     border: 1px solid black;
-    float: left; }
+    float: left;
+    text-decoration: none;
+    color: black; }
   .links a.hover {
     background-color: black;
-    color: white; }
+    color: grey; }
 
 .content {
   width: 95%;

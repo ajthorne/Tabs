@@ -4,10 +4,12 @@
         padding: 1rem;
         border: 1px solid black;
         float: left;
+        text-decoration: none;
+        color: black;
     }
     a.hover {
         background-color: black;
-        color: white;
+        color: grey;
     }
 }
 .content {
